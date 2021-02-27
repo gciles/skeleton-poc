@@ -1,0 +1,26 @@
+{
+  "name": "skeleton-poc",
+  "version": "0.0.1",
+  "description": "Creation of a custom element to create a \"skeleton\" that displays a preview of the content before loading",
+  "main": "index.js",
+  "author": "Grégoire Ciles",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "webpack --mode=development --watch",
+    "prod": "webpack --mode=production"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "css-loader": "^5.1.0",
+    "postcss": "^8.2.6",
+    "postcss-import": "^14.0.0",
+    "postcss-loader": "^5.0.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.0.3"
+  }
+}
